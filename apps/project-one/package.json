@@ -8,7 +8,8 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "test": "vitest --run",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "lint:scripts": "eslint . --fix"
   },
   "dependencies": {
     "vue": "^3.4.21"

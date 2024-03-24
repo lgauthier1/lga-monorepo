@@ -8,7 +8,8 @@
     "packages/*"
   ],
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "npm run test --workspaces"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",

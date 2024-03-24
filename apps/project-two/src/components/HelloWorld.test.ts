@@ -8,10 +8,10 @@ import { describe, expect, test } from "vitest";
 
 describe("helloWorld.vue", () => {
   test("renders the correct message", () => {
-    const message = 'Hello LGA'
+    const message = "Hello LGA";
     const wrapper = mount(HelloWorld, {
       props: { msg: message },
-  });
-  expect(wrapper.find("h1").text()).toBe(message);
+    });
+    expect(wrapper.find("h1").text()).toBe(message);
   });
 });
