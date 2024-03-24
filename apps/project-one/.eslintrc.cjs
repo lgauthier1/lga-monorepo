@@ -4,5 +4,5 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: './tsconfig.json',
   },
-  ignorePatterns: ['cypress/**/*', 'dist', '.eslintrc.js'],
+  ignorePatterns: ['cypress/**/*', 'dist', '.eslintrc.js', 'cypress.config.ts'],
 }

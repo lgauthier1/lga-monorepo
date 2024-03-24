@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "test": "vitest --run",
     "coverage": "vitest run --coverage",
-    "lint:scripts": "eslint . --fix"
+    "lint:scripts": "eslint . --fix",
+    "cypress:open": "cypress open",
+    "test:e2e": "cypress run"
   },
   "dependencies": {
     "vue": "^3.4.21"
