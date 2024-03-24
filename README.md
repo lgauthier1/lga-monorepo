@@ -1,1 +1,1 @@
-# front-industrial-template
+# lga-monorepo
