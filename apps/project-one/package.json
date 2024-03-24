@@ -1,0 +1,29 @@
+{
+  "name": "project-one",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --run",
+    "coverage": "vitest run --coverage",
+    "lint:scripts": "eslint . --fix",
+    "cypress:open": "cypress open",
+    "test:e2e": "cypress run"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "cypress": "^13.7.1",
+    "happy-dom": "^14.3.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.4.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
