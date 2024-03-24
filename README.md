@@ -23,7 +23,7 @@ npm run dev -w project-one
 Launch unit tests with the following command:
 
 ```bash
-npm run test --workspaces
+npm run test --workspaces --if-present
 ```
 
 Lint all the frontend with the following command:
