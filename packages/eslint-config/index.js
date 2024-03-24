@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 module.exports = {
   env: {
     browser: true,
@@ -14,7 +15,8 @@ module.exports = {
     parser: "@typescript-eslint/parser",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "vue", "prettier"],
+  plugins: ["@typescript-eslint", "vue", "prettier", "html"],
+  ignorePatterns: ["dist", "node_modules", ".eslintrc.js"],
   rules: {
     "no-console": "error",
     "prettier/prettier": "error",
