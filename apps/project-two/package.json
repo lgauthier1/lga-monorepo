@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc && vite build",
+    "serve": "serve dist -l 5173",
     "preview": "vite preview",
     "test": "vitest --run",
     "coverage": "vitest run --coverage",
@@ -20,6 +21,7 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/test-utils": "^2.4.0-alpha.2",
     "happy-dom": "^14.3.3",
+    "serve": "^14.2.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vitest": "^1.4.0",
