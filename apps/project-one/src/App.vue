@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import SharedButton from '@lga-monorepo/vue-components/Button'
+
+const handleClick = () => {
+  console.log('Click !')
+}
 </script>
 
 <template>
@@ -11,8 +16,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <h1> Projet One</h1>
+  <h1>Projet One</h1>
   <HelloWorld msg="Vite + Vue" />
+  <SharedButton btnType="primary" @click="handleClick">Click me</SharedButton>
 </template>
 
 <style scoped>
