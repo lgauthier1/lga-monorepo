@@ -1,0 +1,16 @@
+{
+  "name": "@lga-monorepo/vue-components",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "vitest --run",
+    "lint:scripts": "eslint . --fix"
+  },
+  "dependencies": {
+    "vitest": "^1.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.0-alpha.2"
+  }
+}
