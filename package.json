@@ -20,8 +20,6 @@
         "vue": "^3.4.19"
     },
     "devDependencies": {
-        "@testing-library/jest-dom": "^6.4.2",
-        "@testing-library/vue": "^8.0.2",
         "@types/jest": "^29.5.12",
         "@typescript-eslint/eslint-plugin": "^7.1.0",
         "@typescript-eslint/parser": "^7.1.0",
